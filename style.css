@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background:white;
+    color:black;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.conteiner{
+    width: 90%;
+    margin: auto;
+}
+
+/* Navegación */
+.menu-btn{
+    cursor: pointer;
+    display: none;
+    right: 30px;
+    top:15px;
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+.name-page{
+ display: none;
+ top: 8px;
+ left: 10px;
+ position: absolute;
+ font-size: 20px;
+}
+
+.nav-main{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-top: 15px;
+    background: gray;   
+    margin-bottom: 20px;     
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+
+}
+.nav-main ul i{
+    font-size: 1.2rem;
+    padding:0 10px;
+}
+
+.nav-main  ul li{
+    cursor:pointer;
+    padding: 0 10px;
+    font-size: 20px;;
+}
+
+.contac{
+    z-index: 2;
+    display: none;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 0;
+    opacity: 0.9;
+    transform: translateX(-10px);
+
+
+}
+
+.contac li.contac-one,
+.contac li.contac-two {
+    padding: 20px;
+}
+.contac li a i{
+    padding: 0 10px;
+    padding-left: 0;
+    padding-right: 10px;;
+    font-size: 1rem;
+}
+
+.contac.show{
+display: block;
+}
+/*Slider*/
+.slider-wrap{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Cards*/
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card-one,.card-two{
+    text-align: center;
+}
+
+@media(max-width: 700px){
+ body{
+     background:black;
+ }
+ .name-page{
+     display: block;
+ }
+
+ .menu-btn{
+     display: block;
+ }
+ .conteiner{
+     width: 100%;
+    }
+
+ .nav-main ul.nav-menu{
+     z-index: 2;
+     display: block;
+     position: absolute;
+     height: 100%;
+     top:0;
+     left:0; 
+     background:gray;
+     padding: 30px;
+     padding-top:40px ;
+     transform: translateX(-400px);
+     opacity: .8;
+     transition: transform .5s ease-in-out;
+ }
+ .contac{
+    transform: translateX(0px);
+ }
+ .contac li a i{
+    padding: 0 10px;
+    padding-left: 8px;
+    padding-right: 10px;;
+    font-size: 1rem;
+}
+
+
+ .nav-main ul.nav-menu.show{
+    transform: translateX(-20px);
+ }
+
+ .nav-main ul.nav-menu li{
+    padding:20px 5px;
+    font-size: 20px;
+}
+
+.nav-main ul.nav-menu li.desple .contac li.contac-one{
+    padding-left: 1px;
+    padding-top: 30px;
+}
+.nav-main ul.nav-menu li.desple .contac li.contac-two{
+    padding-left: 1px;
+}
+/*Slider*/
+.slider-wrap{
+    z-index: 0;
+}
+
+}
