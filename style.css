@@ -78,7 +78,7 @@ ul{
     justify-content: center;
     align-items: center;
     margin: 7px 0;
-    opacity: 0.85;
+    opacity: .9;
     transform: translateX(-10px);
 
 
@@ -129,6 +129,7 @@ display: block;
  }
  .name-page{
      display: block;
+     color:white;
  }
 
  .menu-btn{
@@ -145,11 +146,11 @@ display: block;
      height: 100%;
      top:0;
      left:0; 
-     background:gray;
+     background:#113E8C;
      padding: 30px;
      padding-top:40px ;
      transform: translateX(-400px);
-     opacity: .8;
+     opacity: .9;
      transition: transform .5s ease-in-out;
  }
  .contac{
