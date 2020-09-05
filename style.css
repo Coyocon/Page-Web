@@ -104,8 +104,8 @@ ul{
     padding: 0 10px;
     padding-left: 0;
     padding-right: 10px;;
-    font-size: 1rem;
 }
+
 
 .contac.show{
 display: block;
@@ -116,8 +116,13 @@ display: block;
     margin-left: auto;
     margin-right: auto;
 }
+.slider{
+    width: 100%;
+}
+
 /*Cards*/
 .cards{
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 350px;
@@ -199,7 +204,13 @@ display: block;
 }
 /*Slider*/
 .slider-wrap{
-    z-index: 0;
+    width: 100%;
 }
-
+.slider{
+    width: 100%;
+}
+/*Cards*/
+.cards{
+    width: 90%;
+}
 }
