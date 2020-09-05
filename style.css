@@ -129,7 +129,7 @@ display: block;
     margin-bottom: 20px;
 }
 .card-one,.card-two{
-    padding-top:200px ;
+    padding-top:100px ;
     justify-content: center;
     text-align: center;
     font-size: 20px; 
@@ -306,6 +306,7 @@ footer{
 }
 .card-one,.card-two{
     padding-top:10px ;
+    font-size: 10px;
 }
 /*Banner*/
 .banner{
@@ -348,7 +349,6 @@ footer{
 }
 /*Copyright*/
 .copy{
-
     font-size: 6px;
 }
 
