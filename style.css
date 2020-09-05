@@ -104,20 +104,25 @@ ul{
     padding: 0 10px;
     padding-left: 0;
     padding-right: 10px;;
-    font-size: 1rem;
 }
+
 
 .contac.show{
 display: block;
 }
 /*Slider*/
 .slider-wrap{
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
+.slider{
+    width: 100%;
+}
+
 /*Cards*/
 .cards{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 350px;
@@ -154,6 +159,10 @@ display: block;
  .conteiner{
      width: 100%;
     }
+
+.nav-main{
+    margin-bottom: 5px;  
+}
 
  .nav-main ul.nav-menu{
      z-index: 2;
@@ -199,7 +208,14 @@ display: block;
 }
 /*Slider*/
 .slider-wrap{
-    z-index: 0;
+    width: 100%;
 }
-
+.slider{
+    width: 100%;
+}
+/*Cards*/
+.cards{
+    margin: 0 auto;
+    width: 90%;
+}
 }
