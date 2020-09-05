@@ -159,6 +159,10 @@ display: block;
  .conteiner{
      width: 100%;
     }
+    
+    .nav-main{
+     margin-bottom: 10px;    
+    }
 
  .nav-main ul.nav-menu{
      z-index: 2;
@@ -174,6 +178,7 @@ display: block;
      opacity: .9;
      transition: transform .5s ease-in-out;
  }
+    
  .contac{
     transform: translateX(0px);
  }
