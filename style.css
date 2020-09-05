@@ -216,6 +216,7 @@ display: block;
 }
 /*Cards*/
 .cards{
+    margin: 0 20px;
     width: 90%;
 }
 }
