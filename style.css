@@ -125,10 +125,8 @@ display: block;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    height: 350px;
     gap: 20px;
-    
-   
+    margin-bottom: 20px;
 }
 .card-one,.card-two{
     padding-top:200px ;
@@ -140,9 +138,96 @@ display: block;
 .card-one img, .card-two img{
    width: 70%;
    background:#113E8C;
-   
 }
 
+/*Banner*/
+.banner{
+	
+	text-align: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+    height: 400px;
+    margin-bottom:20px;
+}
+
+.banner:before{
+    content: '';
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0,0, 0.6);
+}
+.banner .banner-text{
+    color:white;
+    width: 40%;
+    padding-top: 160px;
+    text-align: left ;
+    padding-left: 20px;
+    font-size: 20px;
+    position: relative;
+}
+#banner1{
+    background-image: url('img/Banner/banner1.jpg');
+}
+#banner2{
+    background-image: url('img/Banner/banner1.jpg');
+}
+#banner3{
+    background-image: url('img/Banner/banner1.jpg');
+}
+/*Foot*/
+footer{
+    background: #113E8C;
+    height: 200px;
+    
+}
+.pie{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.pie .redes{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.pie .redes .logos-redes{
+    padding: 20px;   
+}
+.pie .redes .logos-redes a {
+   padding: 40px;
+   padding-left: 38px;
+}
+.pie .redes .logos-redes a i{
+    font-size: 4rem;
+}
+/*Información*/
+.pie .info{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.contacto{
+   padding-left: 10%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+/*Copyright*/
+.copy{
+    background: #113E8C;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
 
 @media(max-width: 700px){
  body{
@@ -158,10 +243,6 @@ display: block;
  }
  .conteiner{
      width: 100%;
-    }
-    
-    .nav-main{
-     margin-bottom: 5px;    
     }
 
 .nav-main{
@@ -181,8 +262,8 @@ display: block;
      transform: translateX(-400px);
      opacity: .9;
      transition: transform .5s ease-in-out;
+
  }
-    
  .contac{
     transform: translateX(0px);
  }
@@ -222,5 +303,54 @@ display: block;
 .cards{
     margin: 0 auto;
     width: 90%;
-  }
 }
+.card-one,.card-two{
+    padding-top:10px ;
+}
+/*Banner*/
+.banner{
+
+    margin-top: 20px;
+    height: 100px;
+}
+.banner .banner-text{
+    padding-top: 40px;
+    font-size: 10px;
+    width: 100%;
+}
+/*Foot*/
+footer{
+    height: 100px;
+}
+/*Redes*/
+.pie .redes{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.pie .redes .logos-redes{
+    padding: 10px;
+   
+}
+.pie .redes .logos-redes a {
+   padding: 20px;
+  padding-left: 18px;
+}
+.pie .redes .logos-redes a i{
+    font-size: 1.8rem;
+}
+/*Información*/
+.pie .info{
+    margin-top: 20px;
+    font-size: 10px;
+}
+.contacto{
+    font-size: 9px;
+}
+/*Copyright*/
+.copy{
+
+    font-size: 6px;
+}
+
+}
+/*acaba celular*/
