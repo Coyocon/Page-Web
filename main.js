@@ -10,6 +10,7 @@ document.querySelector('.menu-btn').addEventListener('click',()=>{
     document.querySelector('.nav-menu').classList.remove('show');
 });*/
 
+
 if(screen.width > 700){
     $(document).ready(function(){
         $('.slider').bxSlider({mode:'fade', controls:false, auto:true});
