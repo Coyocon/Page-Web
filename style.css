@@ -159,6 +159,10 @@ display: block;
  .conteiner{
      width: 100%;
     }
+    
+    .nav-main{
+     margin-bottom: 5px;    
+    }
 
 .nav-main{
     margin-bottom: 5px;  
@@ -178,6 +182,7 @@ display: block;
      opacity: .9;
      transition: transform .5s ease-in-out;
  }
+    
  .contac{
     transform: translateX(0px);
  }
@@ -217,5 +222,5 @@ display: block;
 .cards{
     margin: 0 auto;
     width: 90%;
-}
+  }
 }
