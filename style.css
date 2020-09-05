@@ -115,7 +115,6 @@ display: block;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    height:700px;
 }
 .slider{
     width: 100%;
@@ -128,7 +127,7 @@ display: block;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .card-one,.card-two{
     padding-top:10px ;
