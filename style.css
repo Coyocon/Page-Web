@@ -26,6 +26,7 @@ ul{
 
 /* Navegación */
 .menu-btn{
+    color: white;
     cursor: pointer;
     display: none;
     right: 30px;
@@ -66,22 +67,33 @@ ul{
 }
 
 .nav-main  ul li{
+    
     cursor:pointer;
     padding: 0 10px;
     font-size: 20px;;
 }
 
+
+.nav-main ul li a:hover{
+    color: black;
+    
+}
+
 .contac{
+   
     z-index: 2;
     display: none;
     background:#113E8C;
     justify-content: center;
     align-items: center;
     margin: 7px 0;
-    opacity: 0.85;
+    opacity: .9;
     transform: translateX(-10px);
 
 
+}
+.contac:hover{
+    color: black;    
 }
 
 .contac li.contac-one,
@@ -109,12 +121,16 @@ display: block;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 350px;
+    gap: 20px;
+    
    
 }
 .card-one,.card-two{
+    padding-top:200px ;
     justify-content: center;
     text-align: center;
-    font-size: 20px;  
+    font-size: 20px; 
+    border: #113E8C solid 2px;
 }
 .card-one img, .card-two img{
    width: 70%;
@@ -129,6 +145,7 @@ display: block;
  }
  .name-page{
      display: block;
+     color:white;
  }
 
  .menu-btn{
@@ -145,16 +162,17 @@ display: block;
      height: 100%;
      top:0;
      left:0; 
-     background:gray;
+     background:#113E8C;
      padding: 30px;
      padding-top:40px ;
      transform: translateX(-400px);
-     opacity: .8;
+     opacity: .9;
      transition: transform .5s ease-in-out;
  }
  .contac{
     transform: translateX(0px);
  }
+
  .contac li a i{
     padding: 0 10px;
     padding-left: 8px;
