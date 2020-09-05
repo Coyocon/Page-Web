@@ -122,7 +122,7 @@ display: block;
 
 /*Cards*/
 .cards{
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 350px;
