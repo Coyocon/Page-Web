@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background:white;
+    color:black;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.conteiner{
+    width: 90%;
+    margin: auto;
+}
+
+/* Navegación */
+.menu-btn{
+    color: white;
+    cursor: pointer;
+    display: none;
+    right: 15px;
+    top:12px;
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+.name-page{
+ display: none;
+ top: 8px;
+ left: 10px;
+ position: absolute;
+ font-size: 20px;
+}
+
+.nav-main{
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-top: 15px;
+    background: #113E8C;   
+    margin-bottom: 20px;     
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul.nav-menu{
+    flex: 1;
+
+}
+.nav-main ul i{
+    font-size: 1.2rem;
+    padding:0 10px;
+}
+
+.nav-main  ul li{
+    
+    cursor:pointer;
+    padding: 0 10px;
+    font-size: 20px;;
+}
+
+
+.nav-main ul li a:hover{
+    color: black;
+    
+}
+
+.contac{
+   
+    z-index: 2;
+    display: none;
+    background:#113E8C;
+    justify-content: center;
+    align-items: center;
+    margin: 7px 0;
+    opacity: .9;
+    transform: translateX(-10px);
+
+
+}
+.contac:hover{
+    color: black;    
+}
+
+.contac li.contac-one,
+.contac li.contac-two {
+    padding: 20px;
+}
+.contac li a i{
+    padding: 0 10px;
+    padding-left: 0;
+    padding-right: 10px;;
+}
+
+.contac.show{
+display: block;
+}
+/*linea*/
+.lin{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    margin: 40px 0 ;
+    gap:20px;
+}
+.col{
+    color:black;
+    justify-content: center;
+    border: #113E8C solid 4px;
+    font-size: 20px;
+}
+.col img.logo{
+    width: 100%;    
+}
+
+.col img.cerveza{
+    width: 100%;
+}
+
+
+
+.descrip{
+    padding:0 5px;
+    padding-bottom: 10px;
+}
+
+.descrip h3{
+    padding-bottom: 5px;
+}
+
+.presenta{
+    padding-left: 5px;
+}
+.presenta h4{
+    padding-bottom: 5px;
+}
+
+/*Foot*/
+footer{
+    background: #113E8C;
+    height: 200px;
+    
+}
+.pie{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.pie .redes{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.pie .redes .logos-redes{
+    padding: 20px;   
+}
+.pie .redes .logos-redes a {
+   padding: 40px;
+   padding-left: 38px;
+}
+.pie .redes .logos-redes a i{
+    font-size: 4rem;
+}
+/*Información*/
+.pie .info{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.contacto{
+   padding-left: 10%;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+}
+/*Copyright*/
+.copy{
+    background: #113E8C;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media(max-width: 500px){
+ body{
+     background:white;
+ }
+ .name-page{
+     display: block;
+     color:white;
+ }
+
+ .menu-btn{
+     display: block;
+ }
+ .conteiner{
+     width: 100%;
+    }
+
+.nav-main{
+    margin-bottom: 5px;  
+}
+
+ .nav-main ul.nav-menu{
+     z-index: 2;
+     display: block;
+     position: absolute;
+     height: 100%;
+     top:0;
+     left:0; 
+     background:#113E8C;
+     padding: 30px;
+     padding-top:40px ;
+     transform: translateX(-400px);
+     opacity: .9;
+     transition: transform .5s ease-in-out;
+
+ }
+ .contac{
+    transform: translateX(0px);
+ }
+
+ .contac li a i{
+    padding: 0 10px;
+    padding-left: 8px;
+    padding-right: 10px;;
+    font-size: 1rem;
+}
+
+
+ .nav-main ul.nav-menu.show{
+    transform: translateX(-20px);
+ }
+
+ .nav-main ul.nav-menu li{
+    padding:20px 5px;
+    font-size: 20px;
+}
+
+.nav-main ul.nav-menu li.desple .contac li.contac-one{
+    padding-left: 1px;
+    padding-top: 30px;
+}
+.nav-main ul.nav-menu li.desple .contac li.contac-two{
+    padding-left: 1px;
+}
+/* Linea 1 */
+.lin{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    margin: 0px 5px;
+    margin-bottom: 10px;
+    gap:10px;
+}
+#first-line{
+    margin-top: 20px;
+}
+#last-line{
+    margin-bottom: 20px;
+}
+.descrip{
+    font-size:15px;
+    padding:0 10px;
+    padding-bottom: 5px;
+}
+
+.descrip h3{
+    padding-bottom: 2px;
+}
+
+.presenta{
+    font-size:15px;
+    padding-left: 10px;
+}
+.presenta h4{
+    padding-bottom: 3px;
+}
+
+
+
+/*Foot*/
+footer{
+    height: 100px;
+}
+/*Redes*/
+.pie .redes{
+    margin-top: 15px;
+    font-size: 10px;
+}
+.pie .redes .logos-redes{
+    padding: 10px;
+   
+}
+.pie .redes .logos-redes a {
+   padding: 20px;
+  padding-left: 18px;
+}
+.pie .redes .logos-redes a i{
+    font-size: 1.8rem;
+}
+/*Información*/
+.pie .info{
+    margin-top: 15px;
+    font-size: 10px;
+}
+.contacto{
+    font-size: 9px;
+}
+/*Copyright*/
+.copy{
+    font-size: 6px;
+}
+
+}
+/*acaba celular*/
