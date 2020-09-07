@@ -198,10 +198,145 @@ footer{
     font-size: 12px;
 }
 
-@media(max-width: 500px){
- body{
-     background:white;
- }
+@media(max-width: 400px){
+
+    .name-page{
+        display: block;
+        color:white;
+    }
+   
+    .menu-btn{
+        display: block;
+    }
+    .conteiner{
+        width: 100%;
+       }
+   
+   .nav-main{
+       margin-bottom: 5px;  
+   }
+   
+    .nav-main ul.nav-menu{
+        z-index: 2;
+        display: block;
+        position: absolute;
+        height: 100%;
+        top:0;
+        left:0; 
+        background:#113E8C;
+        padding: 30px;
+        padding-top:40px ;
+        transform: translateX(-400px);
+        opacity: .9;
+        transition: transform .5s ease-in-out;
+   
+    }
+    .contac{
+       transform: translateX(0px);
+    }
+   
+    .contac li a i{
+       padding: 0 10px;
+       padding-left: 8px;
+       padding-right: 10px;;
+       font-size: 1rem;
+   }
+   
+   
+    .nav-main ul.nav-menu.show{
+       transform: translateX(-20px);
+    }
+   
+    .nav-main ul.nav-menu li{
+       padding:20px 5px;
+       font-size: 20px;
+   }
+   
+   .nav-main ul.nav-menu li.desple .contac li.contac-one{
+       padding-left: 1px;
+       padding-top: 30px;
+   }
+   .nav-main ul.nav-menu li.desple .contac li.contac-two{
+       padding-left: 1px;
+   }
+   /* Linea 1 */
+   .lin{
+       display: grid;
+       grid-template-columns:repeat(2,1fr);
+       margin: 0px 5px;
+       margin-bottom: 10px;
+       gap:10px;
+   }
+   .col{
+       font-size: 13px;
+   }
+   
+   
+   #first-line{
+       margin-top: 20px;
+   }
+   #last-line{
+       margin-bottom: 20px;
+   }
+   
+   
+   .descrip{
+      
+       padding:0 10px;
+       padding-bottom: 5px;
+   }
+   
+   .descrip h3{
+       padding-bottom: 2px;
+   }
+   
+   .presenta{
+   
+       padding-left: 10px;
+   }
+   .presenta h4{
+       padding-bottom: 3px;
+   }
+   
+   
+   
+   /*Foot*/
+   footer{
+       height: 100px;
+   }
+   /*Redes*/
+   .pie .redes{
+       margin-top: 15px;
+       font-size: 10px;
+   }
+   .pie .redes .logos-redes{
+       padding: 10px;
+      
+   }
+   .pie .redes .logos-redes a {
+      padding: 20px;
+     padding-left: 18px;
+   }
+   .pie .redes .logos-redes a i{
+       font-size: 1.8rem;
+   }
+   /*Información*/
+   .pie .info{
+       margin-top: 15px;
+       font-size: 10px;
+   }
+   .contacto{
+       font-size: 9px;
+   }
+   /*Copyright*/
+   .copy{
+       font-size: 6px;
+   }
+   
+}
+
+@media(min-width: 401px) and (max-width:540px){
+
  .name-page{
      display: block;
      color:white;
@@ -269,14 +404,21 @@ footer{
     margin-bottom: 10px;
     gap:10px;
 }
+.col{
+    font-size: 15px;
+}
+
+
 #first-line{
     margin-top: 20px;
 }
 #last-line{
     margin-bottom: 20px;
 }
+
+
 .descrip{
-    font-size:15px;
+   
     padding:0 10px;
     padding-bottom: 5px;
 }
@@ -286,7 +428,7 @@ footer{
 }
 
 .presenta{
-    font-size:15px;
+
     padding-left: 10px;
 }
 .presenta h4{
@@ -329,4 +471,142 @@ footer{
 }
 
 }
-/*acaba celular*/
+
+@media(min-width: 541px) and (max-width: 800px){
+
+    .name-page{
+        display: block;
+        color:white;
+    }
+   
+    .menu-btn{
+        display: block;
+    }
+    .conteiner{
+        width: 100%;
+       }
+   
+   .nav-main{
+       margin-bottom: 5px;  
+   }
+   
+    .nav-main ul.nav-menu{
+        z-index: 2;
+        display: block;
+        position: absolute;
+        height: 100%;
+        top:0;
+        left:0; 
+        background:#113E8C;
+        padding: 30px;
+        padding-top:40px ;
+        transform: translateX(-400px);
+        opacity: .9;
+        transition: transform .5s ease-in-out;
+   
+    }
+    .contac{
+       transform: translateX(0px);
+    }
+   
+    .contac li a i{
+       padding: 0 10px;
+       padding-left: 8px;
+       padding-right: 10px;;
+       font-size: 1rem;
+   }
+   
+   
+    .nav-main ul.nav-menu.show{
+       transform: translateX(-20px);
+    }
+   
+    .nav-main ul.nav-menu li{
+       padding:20px 5px;
+       font-size: 20px;
+   }
+   
+   .nav-main ul.nav-menu li.desple .contac li.contac-one{
+       padding-left: 1px;
+       padding-top: 30px;
+   }
+   .nav-main ul.nav-menu li.desple .contac li.contac-two{
+       padding-left: 1px;
+   }
+   /* Linea 1 */
+   .lin{
+       display: grid;
+       grid-template-columns:repeat(2,1fr);
+       margin: 0px 5px;
+       margin-bottom: 10px;
+       gap:10px;
+   }
+   .col{
+       font-size: 20px;
+   }
+   
+   
+   #first-line{
+       margin-top: 20px;
+   }
+   #last-line{
+       margin-bottom: 20px;
+   }
+   
+   
+   .descrip{
+      
+       padding:0 10px;
+       padding-bottom: 5px;
+   }
+   
+   .descrip h3{
+       padding-bottom: 2px;
+   }
+   
+   .presenta{
+   
+       padding-left: 10px;
+   }
+   .presenta h4{
+       padding-bottom: 3px;
+   }
+   
+   
+   
+   /*Foot*/
+   footer{
+       height: 100px;
+   }
+   /*Redes*/
+   .pie .redes{
+       margin-top: 15px;
+       font-size: 10px;
+   }
+   .pie .redes .logos-redes{
+       padding: 8px;
+      
+   }
+   .pie .redes .logos-redes a {
+      padding: 20px;
+     padding-left: 18px;
+   }
+   .pie .redes .logos-redes a i{
+       font-size: 2.8rem;
+   }
+   /*Información*/
+   .pie .info{
+       margin-top: 15px;
+       font-size: 10px;
+   }
+   .contacto{
+       font-size: 10px;
+   }
+   /*Copyright*/
+   .copy{
+       font-size: 8px;
+   }
+   
+}
+
+

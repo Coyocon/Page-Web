@@ -149,7 +149,7 @@ display: block;
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
-    height: 400px;
+    height: 270px;
     margin-bottom:20px;
 }
 
@@ -230,10 +230,135 @@ footer{
     font-size: 12px;
 }
 
-@media(max-width: 500px){
- body{
-     background:white;
- }
+/*Acaba diseño normal*/
+
+@media(max-width: 400px){
+
+    .name-page{
+        display: block;
+        color:white;
+    }
+   
+    .menu-btn{
+        display: block;
+    }
+    .conteiner{
+        width: 100%;
+       }
+   
+   .nav-main{
+       margin-bottom: 5px;  
+   }
+   
+    .nav-main ul.nav-menu{
+        z-index: 2;
+        display: block;
+        position: absolute;
+        height: 100%;
+        top:0;
+        left:0; 
+        background:#113E8C;
+        padding: 30px;
+        padding-top:40px ;
+        transform: translateX(-400px);
+        opacity: .9;
+        transition: transform .5s ease-in-out;
+   
+    }
+    .contac{
+       transform: translateX(0px);
+    }
+   
+    .contac li a i{
+       padding: 0 10px;
+       padding-left: 8px;
+       padding-right: 10px;;
+       font-size: 1rem;
+   }
+   
+   
+    .nav-main ul.nav-menu.show{
+       transform: translateX(-20px);
+    }
+   
+    .nav-main ul.nav-menu li{
+       padding:20px 5px;
+       font-size: 20px;
+   }
+   
+   .nav-main ul.nav-menu li.desple .contac li.contac-one{
+       padding-left: 1px;
+       padding-top: 30px;
+   }
+   .nav-main ul.nav-menu li.desple .contac li.contac-two{
+       padding-left: 1px;
+   }
+   /*Slider*/
+   .slider-wrap{
+       height: 150px ;
+       width: 100%;
+   }
+   .slider{
+       width: 100%;
+   }
+   /*Cards*/
+   .cards{
+       margin: 0 auto;
+       width: 90%;
+       margin-bottom:16px;
+   
+   }
+   .card-one,.card-two{
+       padding-top:10px ;
+       font-size: 10px;
+   }
+   /*Banner*/
+   .banner{
+   
+       height: 100px;
+   }
+   .banner .banner-text{
+       padding-top: 40px;
+       font-size: 10px;
+       width: 100%;
+   }
+   /*Foot*/
+   footer{
+       height: 100px;
+   }
+   /*Redes*/
+   .pie .redes{
+       margin-top: 15px;
+       font-size: 10px;
+   }
+   .pie .redes .logos-redes{
+       padding: 10px;
+      
+   }
+   .pie .redes .logos-redes a {
+      padding: 20px;
+     padding-left: 18px;
+   }
+   .pie .redes .logos-redes a i{
+       font-size: 1.8rem;
+   }
+   /*Información*/
+   .pie .info{
+       margin-top: 15px;
+       font-size: 10px;
+   }
+   .contacto{
+       font-size: 9px;
+   }
+   /*Copyright*/
+   .copy{
+       font-size: 6px;
+   }
+   
+}
+
+@media(min-width: 401px) and (max-width:500px){
+
  .name-page{
      display: block;
      color:white;
@@ -305,6 +430,7 @@ footer{
 .cards{
     margin: 0 auto;
     width: 90%;
+    margin-bottom:16px;
 
 }
 .card-one,.card-two{
@@ -313,7 +439,7 @@ footer{
 }
 /*Banner*/
 .banner{
-    margin-top: 15px;
+
     height: 100px;
 }
 .banner .banner-text{
@@ -355,4 +481,144 @@ footer{
 }
 
 }
+
+@media(min-width: 501px) and (max-width: 645px){
+
+    .name-page{
+        display: block;
+        color:white;
+    }
+   
+    .menu-btn{
+        display: block;
+    }
+    .conteiner{
+        width: 100%;
+       }
+   
+   .nav-main{
+       margin-bottom: 5px;  
+   }
+   
+    .nav-main ul.nav-menu{
+        z-index: 2;
+        display: block;
+        position: absolute;
+        height: 100%;
+        top:0;
+        left:0; 
+        background:#113E8C;
+        padding: 30px;
+        padding-top:40px ;
+        transform: translateX(-400px);
+        opacity: .9;
+        transition: transform .5s ease-in-out;
+   
+    }
+    .contac{
+       transform: translateX(0px);
+    }
+   
+    .contac li a i{
+       padding: 0 10px;
+       padding-left: 8px;
+       padding-right: 10px;;
+       font-size: 1rem;
+   }
+   
+   
+    .nav-main ul.nav-menu.show{
+       transform: translateX(-20px);
+    }
+   
+    .nav-main ul.nav-menu li{
+       padding:20px 5px;
+       font-size: 20px;
+   }
+   
+   .nav-main ul.nav-menu li.desple .contac li.contac-one{
+       padding-left: 1px;
+       padding-top: 30px;
+   }
+   .nav-main ul.nav-menu li.desple .contac li.contac-two{
+       padding-left: 1px;
+   }
+   /*Slider*/
+   .slider-wrap{
+       height:245px ;
+       width: 100%;
+   }
+   .slider{
+       width: 100%;
+   }
+   /*Cards*/
+   .cards{
+       margin: 0 auto;
+       width: 90%;
+       margin-bottom:20px;
+   
+   }
+   .card-one,.card-two{
+       padding-top:10px ;
+       font-size: 10px;
+   }
+   /*Banner*/
+   .banner{
+   
+       height: 100px;
+   }
+   .banner .banner-text{
+       padding-top: 40px;
+       font-size: 10px;
+       width: 100%;
+   }
+
+      /*Foot*/
+      footer{
+        height: 100px;
+    }
+    /*Redes*/
+    .pie .redes{
+        margin-top: 15px;
+        font-size: 10px;
+    }
+    .pie .redes .logos-redes{
+        padding: 8px;
+       
+    }
+    .pie .redes .logos-redes a {
+       padding: 20px;
+      padding-left: 18px;
+    }
+    .pie .redes .logos-redes a i{
+        font-size: 2.8rem;
+    }
+    /*Información*/
+    .pie .info{
+        margin-top: 15px;
+        font-size: 10px;
+    }
+    .contacto{
+        font-size: 10px;
+    }
+    /*Copyright*/
+    .copy{
+        font-size: 8px;
+    }
+   
+}
+
+@media(min-width: 646px) and (max-width:1112px){
+
+    .banner{
+        height: 140px;
+    }
+    .banner .banner-text{
+        padding-top: 67px;
+        font-size: 15px;
+        width: 80%;
+    }
+
+}
+
 /*acaba celular*/
