@@ -244,14 +244,16 @@ footer{
    .nav-main ul i{
     padding:0 1.4vh;
 }
-   
+.nav-menu li{
+    margin-top: 4vh ;
+}
    
     .nav-main ul.nav-menu.show{
        transform: translateX(0vh);
     }
    
     .nav-main ul.nav-menu li{
-       padding:3vw 0vw;
+       padding:4vw 0vw;
        font-size: 3vh;
    }
    
