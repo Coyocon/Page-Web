@@ -201,7 +201,6 @@ footer{
 
 /*Portrait*/
 @media(max-width: 500px){
-
     .name-page{
         display: block;
     }
@@ -224,7 +223,7 @@ footer{
         top:0;
         left:0; 
         background:#113E8C;
-        padding: 4vh;
+        padding: 6vw;
         padding-top:4vh ;
         transform: translateX(-400px);
         opacity: .9;
@@ -248,18 +247,17 @@ footer{
     }
    
     .nav-main ul.nav-menu li{
-       padding:3vh 1vh;
+       padding:3vw 0vw;
        font-size: 3vh;
    }
    
    .nav-main ul.nav-menu li.desple .contac li.contac-one{
        padding-left: .5vw;
-       padding-top: 4vh;
+       padding-top: 4vw;
    }
    .nav-main ul.nav-menu li.desple .contac li.contac-two{
        padding-left: .5vw;
    }
-
    /*linea*/
    .lin{
     margin: 0 1vh;
@@ -314,24 +312,29 @@ footer{
 /*Landscape*/
 @media(min-width: 501px)and (max-width:900px) {
 
-
     .name-page{
         display: block;
-        font-size: 3vw;
-        
     }
    
     .menu-btn{
-        right: 2.2vw;
-        top:1.2vw;
         display: block;
-        
     }
     .conteiner{
         width: 100%;
     }
     .nav-main{
         height: 6.5vw;  
+    }
+
+    .menu-btn{
+        right: 3vw;
+        top:1.4vw;
+    }
+    
+    .name-page{
+     top: 1vw;
+     left: 1vw;
+     font-size: 3vw;
     }
 
     .nav-main ul.nav-menu{
@@ -342,7 +345,7 @@ footer{
         top:0;
         left:0; 
         background:#113E8C;
-        padding: 4vw;
+        padding: 6vh;
         padding-top:4vw ;
         transform: translateX(-400px);
         opacity: .9;
@@ -362,21 +365,21 @@ footer{
    
    
     .nav-main ul.nav-menu.show{
-       transform: translateX(0vw);
+       transform: translateX(0vh);
     }
    
     .nav-main ul.nav-menu li{
-       padding:3vw 1vw;
+       padding:3vh 0vh;
        font-size: 3vw;
    }
    
    .nav-main ul.nav-menu li.desple .contac li.contac-one{
-    padding-left: .5vh;
-    padding-top: 4vw;
-}
-.nav-main ul.nav-menu li.desple .contac li.contac-two{
-    padding-left: .5vh;
-}
+       padding-left: .5vh;
+       padding-top: 4vh;
+   }
+   .nav-main ul.nav-menu li.desple .contac li.contac-two{
+       padding-left: .5vh;
+   }
 
 /*linea*/
 .lin{
