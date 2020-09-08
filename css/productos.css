@@ -223,7 +223,7 @@ footer{
         top:0;
         left:0; 
         background:#113E8C;
-        padding: 6vw;
+        padding: 4vw;
         padding-top:4vh ;
         transform: translateX(-400px);
         opacity: .9;
@@ -236,10 +236,14 @@ footer{
    
     .contac li a i{
        padding: 0 1vh;
-       padding-left: .8vh;
+       padding-left: 1.5vh;
        padding-right: 1vh;;
        font-size: 1rem;
    }
+   
+   .nav-main ul i{
+    padding:0 1.4vh;
+}
    
    
     .nav-main ul.nav-menu.show{
@@ -358,10 +362,13 @@ footer{
    
     .contac li a i{
        padding: 0 1vw;
-       padding-left: .8vw;
+       padding-left: 1.5vw;
        padding-right: 1vw;;
        font-size: 1rem;
    }
+   .nav-main ul i{
+    padding:0 1.4vw;
+}
    
    
     .nav-main ul.nav-menu.show{
