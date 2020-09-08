@@ -300,6 +300,11 @@ footer{
         width: 95%;
         margin-bottom: 3vh;
     }
+    .card-one,.card-two{
+        font-size: 1.5vh; 
+    }
+        
+ 
     /*Banners*/
     .banner{
         height: 15vh;
@@ -307,6 +312,7 @@ footer{
     .banner .banner-text{
         padding-top: 5vh;
         width: 100%;
+        font-size: 1.7vh;
     }
 
       /*Foot*/
@@ -422,7 +428,6 @@ footer{
     .card-one,.card-two{
         padding-top:2vw ;
         font-size: 2vw; 
-
     }
     /*Banners*/
     .banner{
