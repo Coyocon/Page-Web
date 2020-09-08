@@ -262,6 +262,10 @@ footer{
         transition: transform .5s ease-in-out;
    
     }
+
+    .nav-menu li{
+        margin-top: 4vh ;
+    }
     .contac{
        transform: translateX(0px);
     }
@@ -282,7 +286,7 @@ footer{
     }
    
     .nav-main ul.nav-menu li{
-       padding:3vw 0vw;
+       padding:4vw 0vw;
        font-size: 3vh;
    }
    
