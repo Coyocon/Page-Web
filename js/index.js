@@ -1,4 +1,4 @@
-if(screen.width > 800){
+if(screen.width > 850){
     $(document).ready(function(){
         $('.slider').bxSlider({mode:'fade', controls:false, auto:true});
       });
